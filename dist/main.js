@@ -1,1 +1,1 @@
-console.log("test");
+(()=>{"use strict";const t={title:"Task 1",description:"This is my test task",dueDate:Date.now(),priority:"high"};console.log(t)})();
