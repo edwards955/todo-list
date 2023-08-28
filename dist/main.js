@@ -1,1 +1,1 @@
-(()=>{"use strict";const t={title:"Task 1",description:"This is my test task",dueDate:Date.now(),priority:"high"};console.log(t)})();
+(()=>{"use strict";const s=(s,t,o,i)=>({title:s,description:t,dueDate:o,priority:i}),t=s("Task 1","This is my first task",Date.now(),"low"),o=s("Task 2","This is my second task",Date.now(),"medium"),i=s("Task 3","This is my third task",Date.now(),"high"),e={title:"Things",todos:[]};e.todos.push(t),e.todos.push(o),e.todos.push(i),console.log(e)})();
